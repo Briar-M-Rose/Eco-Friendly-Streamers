@@ -1,0 +1,101 @@
+
+body {
+  background-color: yellow;
+  margin: 0px;
+  background-image: url(https://images.unsplash.com/photo-1558438102-64c19e995a44?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+  background-color: #517B67;
+  height: 100px;
+  width: 100%;
+}
+
+img {
+  background-color: #517B67;
+  height: 60px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+ 
+.nav ul {
+  background-color: #517B67;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 0px;
+  padding: 20px 0 0 0;
+  text-align: center;
+  width: 100%;
+}
+
+.nav li {
+  background-color: #517B67;
+  padding: 10px;
+  margin: 0 10px;
+}
+ 
+.nav a {
+  background-color: #517B67;
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  background-color: #18251F;
+  width: 840px;
+  margin: 50px auto 0px auto;
+}
+
+.section-box{
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+.form-field{
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#quote-offer-container {
+  color: #18251F;
+  background-color: #61947B;
+  margin-right: 40px;
+  padding: 5%;
+}
+
+#quote-form-container {
+  color: #61947B;
+  background-color: #18251F;
+  padding: 20px;
+  margin-top: 30px;
+  height: 200px;
+}
+
+#quote-form {
+  background-color: #18251F;
+}
+
+
+button {
+  border: none;
+  background-color: white;
+  color: #18251F;
+  height: 40px;
+  width:  80px;
+  margin-left: 45%;
+  border-radius: 25px;
+}
+input{
+  background-color:#61947B;
+  border-radius: 20px;
+  border-style: none;
+}
